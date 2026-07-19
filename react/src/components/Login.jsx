@@ -1,4 +1,6 @@
 import meetmind from "../assets/meetmind.png"
+import meeting from "../assets/Meeting.jpg"
+import "../components/Login.css"
 function Login(){
 
     return(<>
@@ -11,6 +13,12 @@ function Login(){
                     <p>AI Meeting Notes & Task Manager</p>
                 </div>
             </div>
+            <img className="meeting" src={meeting} alt="Meeting" />
+        </div>
+
+
+        <div className="right">
+            
         </div>
     </div>
     </>)
